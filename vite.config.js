@@ -1,12 +1,14 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  root: './src',
+  root: './',
+  publicDir: 'public',
   build: {
-    // Specify the output directory for the build. This path is relative to your project root.
-    outDir: '../dist',
+    outDir: 'dist',
+    emptyOutDir: true
   },
   server: {
-    port: 3000,
-  },
+    open: true, 
+    port: 3000
+  }
 });

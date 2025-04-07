@@ -1,0 +1,61 @@
+body {
+    background-color: green;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .controls {
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .controls input {
+    width: 60px;
+    padding: 4px;
+  }
+  
+  .controls button {
+    padding: 6px 12px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .card {
+    background: white;
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 2px 4px 10px rgba(0,0,0,0.4);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .card-top,
+  .card-bottom {
+    font-size: 2rem;
+    position: absolute;
+  }
+  
+  .card-top {
+    top: 10px;
+    left: 15px;
+  }
+  
+  .card-bottom {
+    bottom: 10px;
+    right: 15px;
+    transform: rotate(180deg);
+  }
+  
+  .card-value {
+    font-size: 4rem;
+  }

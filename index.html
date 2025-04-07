@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Random Card Generator Erik Ruiz</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="controls">
+    <label>Width: <input type="number" id="card-width" placeholder="200" /></label>
+    <label>Height: <input type="number" id="card-height" placeholder="300" /></label>
+    <button id="new-card">New Card</button>
+  </div>
+
+  <div class="card" id="card">
+    <div class="card-top" id="top-suit">♠</div>
+    <div class="card-value" id="card-value">A</div>
+    <div class="card-bottom" id="bottom-suit">♠</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
